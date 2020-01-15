@@ -6,6 +6,7 @@ These things helped me learn R, so functions are poorly named, poorly specified,
 You don't really need to install a package. Just source R/pokemon.R
 
 A couple of notable data frames:
+
 mymons = list of your mons
 <br>agenda = next steps you'd like to take
 <br>movematches = a list of which pokemon can perform which moves
@@ -13,6 +14,7 @@ mymons = list of your mons
 <br>...and a bunch of other stuff you don't really need
 
 A few of the more important functions:
+
 moncat shows you all the mons in your list of breeds that include the specified string
 <br>mylist.new adds pokemon to the list
 <br>- mylist.add was an old version, from when we couldn't tell stats right off, was used with possibles()
