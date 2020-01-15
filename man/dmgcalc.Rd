@@ -4,8 +4,19 @@
 \alias{dmgcalc}
 \title{Calculates the damage a move will do against a target}
 \usage{
-dmgcalc(attacker, target, move, weather = NA, atk = 15, def = 15,
-  atklvl = 40, deflvl = 40, raid = F, atkraid = F, ...)
+dmgcalc(
+  attacker,
+  target,
+  move,
+  weather = NA,
+  atk = 15,
+  def = 15,
+  atklvl = 40,
+  deflvl = 40,
+  raid = F,
+  atkraid = F,
+  ...
+)
 }
 \arguments{
 \item{attacker}{The row number of the mon who's attacking}

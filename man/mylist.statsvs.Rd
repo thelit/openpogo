@@ -5,8 +5,7 @@
 \title{Shows how strong of both an attacker and defender one of your mons is against a target
 across a range of levels -- calls mylist.dpslvl() and mylist.strlvl()}
 \usage{
-mylist.statsvs(source, target, TarFast, TarCharge, raid = T,
-  range = NA, ...)
+mylist.statsvs(source, target, TarFast, TarCharge, raid = T, range = NA, ...)
 }
 \arguments{
 \item{source}{the row number of your mon}

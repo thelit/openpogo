@@ -5,9 +5,20 @@
 \title{Shows how much damage a mon in your database could do against a target
 This is called by most of the other 'find damage against x' functions like mylist.raidcounters()}
 \usage{
-mylist.counter(sourceID, target, raid = F, targetdef = 15,
-  targetlvl = 40, Atk = NA, Level = NA, Fast = NA, Charge = NA,
-  data = mymons, exclude = NA, ...)
+mylist.counter(
+  sourceID,
+  target,
+  raid = F,
+  targetdef = 15,
+  targetlvl = 40,
+  Atk = NA,
+  Level = NA,
+  Fast = NA,
+  Charge = NA,
+  data = mymons,
+  exclude = NA,
+  ...
+)
 }
 \arguments{
 \item{sourceID}{the row number in your database of the attacker}

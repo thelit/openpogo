@@ -6,8 +6,7 @@
 a range of your mon's levels. If range is not included, will look for the mon's
 level and go from there to 40. If the mon has no level, will go from 20:40.}
 \usage{
-mylist.dpslvl(sourceID, target, raid = T, range = NA, data = mymons,
-  ...)
+mylist.dpslvl(sourceID, target, raid = T, range = NA, data = mymons, ...)
 }
 \arguments{
 \item{sourceID}{the row number of your attacking mon}

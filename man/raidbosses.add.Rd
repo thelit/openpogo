@@ -5,8 +5,17 @@
 \title{Update the raidbosses list with a previously unknown raid boss. Add at least name and tier.
 Everything but name and tier isn't strictly necessary.}
 \usage{
-raidbosses.add(name, Tier, CP = 0, Attack = 0, Defense = 0, HP = 0,
-  Catch.Rate = NA, Active = TRUE, ID = NA)
+raidbosses.add(
+  name,
+  Tier,
+  CP = 0,
+  Attack = 0,
+  Defense = 0,
+  HP = 0,
+  Catch.Rate = NA,
+  Active = TRUE,
+  ID = NA
+)
 }
 \arguments{
 \item{name}{the name of the pokemon type}

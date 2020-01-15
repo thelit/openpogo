@@ -5,9 +5,18 @@
 \title{Iterates mylist.strong() for each mon in your database
 That is, calculates the pokemon who take the least damage from a source}
 \usage{
-mylist.strongvs(source, tarFast = "", tarCharge = "", Name = "",
-  raid = T, numreturn = 10, sourceatk = 15, sourcelvl = 40,
-  cpmin = 1500, data = mymons)
+mylist.strongvs(
+  source,
+  tarFast = "",
+  tarCharge = "",
+  Name = "",
+  raid = T,
+  numreturn = 10,
+  sourceatk = 15,
+  sourcelvl = 40,
+  cpmin = 1500,
+  data = mymons
+)
 }
 \arguments{
 \item{source}{the kind of attacker}

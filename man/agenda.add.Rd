@@ -4,7 +4,7 @@
 \alias{agenda.add}
 \title{Little helper adds an agenda item to the agenda dataframe}
 \usage{
-agenda.add(text, start, end, comments = "")
+agenda.add(text, start, end, comments = "", data = agenda)
 }
 \arguments{
 \item{text}{a description of the agenda item}
@@ -14,6 +14,8 @@ agenda.add(text, start, end, comments = "")
 \item{end}{the level you're trying to reach}
 
 \item{comments}{comments}
+
+\item{data}{the name of the agenda table you're adding to}
 }
 \description{
 Little helper adds an agenda item to the agenda dataframe

@@ -4,8 +4,15 @@
 \alias{mylist.add}
 \title{Adds a pokemon to the database conforming to the output of possibles()}
 \usage{
-mylist.add(poss, fast.move = "", charge.move = "", notes = "",
-  shiny = FALSE, stats = TRUE, data = mymons)
+mylist.add(
+  poss,
+  fast.move = "",
+  charge.move = "",
+  notes = "",
+  shiny = FALSE,
+  stats = TRUE,
+  data = mymons
+)
 }
 \arguments{
 \item{poss}{A pokemon output by possibles() or a facsimile}

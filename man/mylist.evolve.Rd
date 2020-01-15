@@ -4,8 +4,7 @@
 \alias{mylist.evolve}
 \title{Use to evolve a pokemon in your database, calculating new CP/HP}
 \usage{
-mylist.evolve(num, to, fast = "", charge = "", cp = NA, hp = NA,
-  data = mymons)
+mylist.evolve(num, to, fast = "", charge = "", cp = NA, hp = NA, data = mymons)
 }
 \arguments{
 \item{num}{The mon's row number}

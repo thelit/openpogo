@@ -4,8 +4,15 @@
 \alias{combos.better}
 \title{Counts the number of combinations that are better than one with given stats.}
 \usage{
-combos.better(mon, atk = 10, def = 10, sta = 10, minstr = 10,
-  mindef = 10, minsta = 10)
+combos.better(
+  mon,
+  atk = 10,
+  def = 10,
+  sta = 10,
+  minstr = 10,
+  mindef = 10,
+  minsta = 10
+)
 }
 \arguments{
 \item{mon}{what kind of mon you're looking at}

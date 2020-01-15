@@ -4,8 +4,14 @@
 \alias{mylist.counters}
 \title{Calls mylist.counter() for each of your mons, defaults to not a raid boss}
 \usage{
-mylist.counters(target, raid = F, numreturn = 10, Name = "",
-  data = mymons, ...)
+mylist.counters(
+  target,
+  raid = F,
+  numreturn = 10,
+  Name = "",
+  data = mymons,
+  ...
+)
 }
 \arguments{
 \item{target}{the kind of mon you're attacking}

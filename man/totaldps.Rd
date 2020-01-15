@@ -4,8 +4,7 @@
 \alias{totaldps}
 \title{Gives the combined average DPS per second of a pair of moves.}
 \usage{
-totaldps(move1, move2, source = NA, target = NA, stab1 = TRUE,
-  stab2 = TRUE)
+totaldps(move1, move2, source = NA, target = NA, stab1 = TRUE, stab2 = TRUE)
 }
 \arguments{
 \item{move1}{The fast move}

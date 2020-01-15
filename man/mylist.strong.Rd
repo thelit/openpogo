@@ -4,9 +4,19 @@
 \alias{mylist.strong}
 \title{See your mon's survivability vs. a certain source's attacks}
 \usage{
-mylist.strong(source, target, tarFast = "", tarCharge = "", raid = T,
-  sourceatk = 15, sourcelvl = 40, Def = NA, Level = NA,
-  data = mymons, ...)
+mylist.strong(
+  source,
+  target,
+  tarFast = "",
+  tarCharge = "",
+  raid = T,
+  sourceatk = 15,
+  sourcelvl = 40,
+  Def = NA,
+  Level = NA,
+  data = mymons,
+  ...
+)
 }
 \arguments{
 \item{source}{the name of the type of attacker}

@@ -4,8 +4,18 @@
 \alias{pokemon.add}
 \title{Add a new pokemon to the pokemon database ('pokedex')}
 \usage{
-pokemon.add(Pokemon, Num, Type.1, Type.2 = "", Hatch.km = NA,
-  Buddy.km = NA, Attack, Defense, Stamina, Gen = NA)
+pokemon.add(
+  Pokemon,
+  Num,
+  Type.1,
+  Type.2 = "",
+  Hatch.km = NA,
+  Buddy.km = NA,
+  Attack,
+  Defense,
+  Stamina,
+  Gen = NA
+)
 }
 \arguments{
 \item{Pokemon}{name of the new mon}

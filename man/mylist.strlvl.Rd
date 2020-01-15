@@ -4,8 +4,16 @@
 \alias{mylist.strlvl}
 \title{Shows how strong of a defender one of your mons is against a target across a range of levels}
 \usage{
-mylist.strlvl(source, target, tarFast, tarCharge, raid = T, range = NA,
-  data = mymons, ...)
+mylist.strlvl(
+  source,
+  target,
+  tarFast,
+  tarCharge,
+  raid = T,
+  range = NA,
+  data = mymons,
+  ...
+)
 }
 \arguments{
 \item{source}{the type of attacker}

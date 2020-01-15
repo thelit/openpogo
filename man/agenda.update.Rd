@@ -4,7 +4,7 @@
 \alias{agenda.update}
 \title{Updates the agenda dataframe when you level up one of the mons}
 \usage{
-agenda.update(number, current = NA, target = NA)
+agenda.update(number, current = NA, target = NA, data = agenda)
 }
 \arguments{
 \item{number}{the row number of the agenda dataframe you're updating}
@@ -12,6 +12,8 @@ agenda.update(number, current = NA, target = NA)
 \item{current}{the level your mon's currently at}
 
 \item{target}{the level you're trying to reach, if you want to update that}
+
+\item{data}{the agenda table you want to update}
 }
 \description{
 Updates the agenda dataframe when you level up one of the mons

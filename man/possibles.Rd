@@ -8,8 +8,18 @@ For atk/def/stam, descriptors are "not"/"pos"/"impr"/"incr", for the summary
 they are "not"/"aa"/"caught"/"wonder". (As they were for Team Mystic under the
 old assessment procedure. Not so useful anymore!)}
 \usage{
-possibles(mon, cp, hp, dust = NA, atk = "all", def = "all",
-  stam = "all", total = "all", powered = F, evolve = NA)
+possibles(
+  mon,
+  cp,
+  hp,
+  dust = NA,
+  atk = "all",
+  def = "all",
+  stam = "all",
+  total = "all",
+  powered = F,
+  evolve = NA
+)
 }
 \arguments{
 \item{mon}{The mon in question}
