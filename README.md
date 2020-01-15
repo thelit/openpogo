@@ -16,12 +16,15 @@ mylist.dpslvl tells you how a mon would fare against a boss at different levels
 
 Examples:
 ## moncat("Mew")
+```
 ...
 255            Mew 1378 122 1900     15      11      12  15.0 Poison Jab  Flame Charge                84.4 FALSE          3216 15.47
 301         Mewtwo 4138 178   NA     14      15      12  40.0 Psycho Cut   Shadow Ball Focus Blast    91.1 FALSE          4138 20.37
 ...
+```
 
 ## mylist.new("Trubbish", 423, 6,7,8)
+```
          Name   CP  HP Dust Attack Defense Stamina Level Fast Charge Charge2 Percent Shiny Notes
 1104 Trubbish  411  78 2200      7       0       5    17                        26.7 FALSE
 1105 Basculin 1393 119 4000      1      13       4    26                        40.0 FALSE
@@ -29,6 +32,7 @@ Examples:
 1107  Tympole   85  37  400     15      14       9     4                        84.4 FALSE
 1108 Trubbish  423  79 2200      6       7       8    17                        46.7 FALSE
 1109 Trubbish  423  79 2200      6       7       8    17                        46.7 FALSE
+```
 
 ## mylist.raidcounters("Machamp")
  Number          Name         Fast  F.Type         Charge   C.Type Vs.DPS Atk Def Sta Level   CP Net.DPS
