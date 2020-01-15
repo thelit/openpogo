@@ -23,6 +23,7 @@ moncat shows you all the mons in your list of breeds that include the specified 
 <br>mylist.subtract can't tell you what this does
 <br>mylist.raidcounters gives you a list of your mons that are most powerful vs. a specified raid boss
 <br>mylist.dpslvl tells you how a mon would fare against a boss at different levels
+<br>alldps shows a mon's move combinations ranked by base damage output
 
 Examples:
 ### moncat("Mew")
@@ -106,4 +107,21 @@ Examples:
 30:  39.5   33.67   0.18      31     185   184000   205
 31:  40.0   33.74   0.21      31     186   194000   220
     Level Net.DPS PctChg Fst.Dmg Chg.Dmg Stardust Candy
+```
+
+### alldps("Raikou")
+```
+[1] "Move combinations for Raikou:"
+[1] "  Type 1: Electric"
+[1] "  Max CP: 3452"
+[1] "  Atk/Def/Stam: 241-195-207"
+           Fast   F.Type      Charge   C.Type DPES Total.DPS
+1 Thunder Shock Electric Wild Charge Electric 0.69     22.91
+5   Volt Switch Electric Wild Charge Electric 0.69     21.67
+2 Thunder Shock Electric Thunderbolt Electric 0.64     21.36
+4 Thunder Shock Electric Shadow Ball    Ghost 0.67     20.37
+6   Volt Switch Electric Thunderbolt Electric 0.64     20.29
+3 Thunder Shock Electric     Thunder Electric 0.42     19.69
+8   Volt Switch Electric Shadow Ball    Ghost 0.67     19.48
+7   Volt Switch Electric     Thunder Electric 0.42     18.63
 ```
