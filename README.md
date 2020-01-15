@@ -25,7 +25,7 @@ moncat shows you all the mons in your list of breeds that include the specified 
 <br>mylist.dpslvl tells you how a mon would fare against a boss at different levels
 
 Examples:
-## moncat("Mew")
+### moncat("Mew")
 ```
 ...
 255            Mew 1378 122 1900     15      11      12  15.0 Poison Jab  Flame Charge                84.4 FALSE          3216 15.47
@@ -33,7 +33,7 @@ Examples:
 ...
 ```
 
-## mylist.new("Trubbish", 423, 6,7,8)
+### mylist.new("Trubbish", 423, 6,7,8)
 ```
          Name   CP  HP Dust Attack Defense Stamina Level Fast Charge Charge2 Percent Shiny Notes
 1104 Trubbish  411  78 2200      7       0       5    17                        26.7 FALSE
@@ -44,7 +44,7 @@ Examples:
 1109 Trubbish  423  79 2200      6       7       8    17                        46.7 FALSE
 ```
 
-## mylist.raidcounters("Machamp")
+### mylist.raidcounters("Machamp")
 ```
  Number          Name         Fast  F.Type         Charge   C.Type Vs.DPS Atk Def Sta Level   CP Net.DPS
     922        Mewtwo    Confusion Psychic      Psystrike  Psychic  39.41 313 197 227  40.0 4134   38.73
@@ -59,14 +59,14 @@ Examples:
     437        Mewtwo    Confusion Psychic        Psychic  Psychic  33.27 315 195 224  25.0 2937   27.72
 ```
 
-## mylist.subtract(1109)
+### mylist.subtract(1109)
 ```
 [1] "Eliminating:"
          Name  CP HP Dust Attack Defense Stamina Level Fast Charge Charge2 Percent Shiny Notes
 1109 Trubbish 423 79 2200      6       7       8    17                        46.7 FALSE
 ```
 
-## mylist.dpslvl(617, "Machamp")
+### mylist.dpslvl(617, "Machamp")
 ```
 [1] "Deoxys Attack vs. Machamp"
 [1] "Zen Headbutt & Zap Cannon"
