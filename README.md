@@ -4,15 +4,15 @@ Scripts for maintaining and utilizing a Pokemon Go database. Example data includ
 These things helped me learn R, so functions are poorly named, poorly specified, and generally poorly written. I'm sure many useful changes could be made. Suggestions welcome.
 
 mymons = list of your mons
-agenda = next steps you'd like to take
+<br>agenda = next steps you'd like to take
 
 Some of the more important functions:
-moncat shows you all the mons in your list of breeds that include the specified string
-mylist.new adds pokemon to the list
-- mylist.add was an old version, from when we couldn't tell stats right off, was used with possibles()
-mylist.subtract can't tell you what this does
-mylist.raidcounters gives you a list of your mons that are most powerful vs. a specified raid boss
-mylist.dpslvl tells you how a mon would fare against a boss at different levels
+<br>moncat shows you all the mons in your list of breeds that include the specified string
+<br>mylist.new adds pokemon to the list
+<br>- mylist.add was an old version, from when we couldn't tell stats right off, was used with possibles()
+<br>mylist.subtract can't tell you what this does
+<br>mylist.raidcounters gives you a list of your mons that are most powerful vs. a specified raid boss
+<br>mylist.dpslvl tells you how a mon would fare against a boss at different levels
 
 Examples:
 ## moncat("Mew")
