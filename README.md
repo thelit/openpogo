@@ -35,6 +35,7 @@ Examples:
 ```
 
 ## mylist.raidcounters("Machamp")
+```
  Number          Name         Fast  F.Type         Charge   C.Type Vs.DPS Atk Def Sta Level   CP Net.DPS
     922        Mewtwo    Confusion Psychic      Psystrike  Psychic  39.41 313 197 227  40.0 4134   38.73
     469        Mewtwo    Confusion Psychic        Psychic  Psychic  33.27 315 194 229  40.0 4146   32.85
@@ -46,13 +47,17 @@ Examples:
     183     Gardevoir        Charm   Fairy Dazzling Gleam    Fairy  35.52 252 209 182  40.0 3069   28.29
     421       Moltres  Wing Attack  Flying     Sky Attack   Flying  34.10 266 194 222  28.5 2807   28.19
     437        Mewtwo    Confusion Psychic        Psychic  Psychic  33.27 315 195 224  25.0 2937   27.72
+```
 
 ## mylist.subtract(1109)
+```
 [1] "Eliminating:"
          Name  CP HP Dust Attack Defense Stamina Level Fast Charge Charge2 Percent Shiny Notes
 1109 Trubbish 423 79 2200      6       7       8    17                        46.7 FALSE
+```
 
 ## mylist.dpslvl(617, "Machamp")
+```
 [1] "Deoxys Attack vs. Machamp"
 [1] "Zen Headbutt & Zap Cannon"
 [1] "Total.DPS: 19.32"
@@ -91,3 +96,4 @@ Examples:
 30:  39.5   33.67   0.18      31     185   184000   205
 31:  40.0   33.74   0.21      31     186   194000   220
     Level Net.DPS PctChg Fst.Dmg Chg.Dmg Stardust Candy
+```
