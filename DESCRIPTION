@@ -1,0 +1,12 @@
+Package: openpogo
+Type: Package
+Title: Pokemon Go Cataloguing and Analysis Tools
+Version: 1.53.0
+Author: Theo Littleton
+Maintainer: Theo Littleton <tml285@nyu.edu>
+Description: Keeps track of one's pokemon in Pokemon Go, and performs various analysis functions such as choosing the right set of pokemon to fight particular raids.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: data.table
+RoxygenNote: 6.1.1.9000
