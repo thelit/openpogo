@@ -3,13 +3,21 @@
 Scripts for maintaining and utilizing a Pokemon Go database. Example data included in pokedata.rda.
 These things helped me learn R, so functions are poorly named, poorly specified, and generally poorly written. I'm sure many useful changes could be made. Suggestions welcome.
 
+You don't really need to install a package. Just source R/pokemon.R
+
+A couple of notable data frames:
 mymons = list of your mons
 <br>agenda = next steps you'd like to take
+<br>movematches = a list of which pokemon can perform which moves
+<br>pokemon = the pokedex, basically
+<br>...and a bunch of other stuff you don't really need
 
-Some of the more important functions:
-<br>moncat shows you all the mons in your list of breeds that include the specified string
+A few of the more important functions:
+moncat shows you all the mons in your list of breeds that include the specified string
 <br>mylist.new adds pokemon to the list
 <br>- mylist.add was an old version, from when we couldn't tell stats right off, was used with possibles()
+<br>savemonlist saves your personal data (mymons, agenda, etc.)
+<br>savepoke saves changes to master files (movematches, pokemon, etc.)
 <br>mylist.subtract can't tell you what this does
 <br>mylist.raidcounters gives you a list of your mons that are most powerful vs. a specified raid boss
 <br>mylist.dpslvl tells you how a mon would fare against a boss at different levels

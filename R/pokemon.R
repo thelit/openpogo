@@ -144,6 +144,15 @@ loadpoke <- function() {
 #       Gets list of currently active bosses in selected tier(s).
 #   raidbosses.add <- function(name, Tier, CP=0, Attack=0, Defense=0, HP=0, Catch.Rate=NA, Active=TRUE, ID=NA) {
 #       Add a previously unknown raid boss to the boss list. Provide at least name and tier.
+#   movematches.add <- function(Pokemon, Attack, Obsolete=FALSE)
+#       Add a new move or moves to a pokemon or pokemons
+#   pokemon.add <- function(Pokemon, Num, Type.1, Type.2="", Hatch.km=NA, Buddy.km=NA, Attack, Defense, Stamina, Gen=NA)
+#       Add a new pokemon to the master pokedex
+#   mylist.new <- function(type,cp,atk,def,stam, fast="", charge="", charge2="", shiny=F, notes="",data=mymons)
+#       Add a new 'mon by its stats
+#   levfromstats <- function(name, cp, atk, def, sta)
+#       Calculates level and HP given a name, CP, attack, defense, and stamina (convenience for mylist.new)
+
 
 
 # Helpers:
